@@ -12,8 +12,6 @@ public class Buttons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.AddForce(grav, 0, 0);
-
         if (gameStart)
         {
             if (Input.GetKey("z"))
