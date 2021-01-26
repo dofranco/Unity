@@ -18,6 +18,7 @@ public class DrainScript : MonoBehaviour
 
     public GameObject player;
 
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +54,7 @@ public class DrainScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         ballCount -= 1;
+        audioSource.PlayOneShot(audioSource.clip);
 
         if (ballCount <= 0)
         {
