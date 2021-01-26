@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreDisplay: {fileID: 0}
-  audioSource: {fileID: 7549336184557842402}
+  audio: {fileID: 7549336184557842402}
 --- !u!82 &7549336184557842402
 AudioSource:
   m_ObjectHideFlags: 0

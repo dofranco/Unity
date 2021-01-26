@@ -391,7 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beginText: {fileID: 1524106378}
   ballRB: {fileID: 470523758}
-  audio: {fileID: 213498061}
+  audioSource: {fileID: 213498061}
 --- !u!65 &213498059
 BoxCollider:
   m_ObjectHideFlags: 0

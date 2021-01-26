@@ -11,7 +11,7 @@ public class StartingForce : MonoBehaviour
     public Rigidbody ballRB;
     bool ballReady;
 
-    public AudioSource audio;
+    public AudioSource audioSource;
     bool playOnce = true;
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class StartingForce : MonoBehaviour
             {
                 if(playOnce)
                 {
-                    audio.PlayOneShot(audio.clip);
+                    audioSource.PlayOneShot(audioSource.clip);
                     playOnce = false;
                 }
                 ballRB.AddForce(currPower * Vector3.forward);

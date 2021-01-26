@@ -10,7 +10,7 @@ public class BumperHit : MonoBehaviour
 
     public Text scoreDisplay;
 
-    public AudioSource audioSource;
+    public new AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class BumperHit : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Ball"))
         {
-            audioSource.PlayOneShot(audioSource.clip);
+            audio.PlayOneShot(audio.clip);
             score += addScore;
             other.gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * 50);
 

@@ -17,7 +17,7 @@ public class MovePaddles : MonoBehaviour
     public float startingPos = 0.0f;
     public float endPos = 50.0f;
 
-    public AudioSource audio;
+    public new AudioSource audio;
 
     HingeJoint hingeJ;
 
