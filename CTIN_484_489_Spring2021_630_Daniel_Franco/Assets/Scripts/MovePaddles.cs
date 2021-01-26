@@ -8,13 +8,13 @@ public class MovePaddles : MonoBehaviour
     // in this case it will be one of the paddles hinge joints
     public string axisName;
 
-    public float power = 10000f;
+    public float power = 500000f;
 
     //the damper changes the smoothness of the paddles
     public float dampener = 150.0f;
 
     public float startingPos = 0.0f;
-    public float endPos = 45.0f;
+    public float endPos = 50.0f;
 
     HingeJoint hingeJ;
 
@@ -23,6 +23,7 @@ public class MovePaddles : MonoBehaviour
     {
         hingeJ = GetComponent<HingeJoint>();
         hingeJ.useSpring = true;
+
     }
 
     // Update is called once per frame

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class StartingForce : MonoBehaviour
 {
 
-    float currPower = 1.0f;
+    float currPower = .75f;
     //float minPower = 0.0f;
     //float endPower = 100.0f;
     public Text beginText;
