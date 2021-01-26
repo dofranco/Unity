@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class MovePaddles : MonoBehaviour
 {
+    //this gives you then name of which axis you're using
+    // in this case it will be one of the paddles hinge joints
     public string axisName;
 
     public float power = 10000f;
+
+    //the damper changes the smoothness of the paddles
     public float dampener = 150.0f;
+
     public float startingPos = 0.0f;
     public float endPos = 45.0f;
 
