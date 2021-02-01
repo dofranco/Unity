@@ -153,3 +153,36 @@ System memory in use after: 58.6 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1544.
 Total: 1.744900 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.520300 ms  DeleteObjects: 0.050000 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.8 MB.
+System memory in use after: 58.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1546.
+Total: 9.116000 ms (FindLiveObjects: 1.482400 ms CreateObjectMapping: 0.116900 ms MarkObjects: 7.427400 ms  DeleteObjects: 0.087100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73500.633672 seconds.
+  path: Assets/Scripts/BumperHit.cs
+  artifactKey: Guid(a0f8bd368b03d364f87029d1459b1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BumperHit.cs using Guid(a0f8bd368b03d364f87029d1459b1cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0679bfcf576883b933b831ad37fa554c') in 0.070080 seconds
+  Import took 0.073427 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
